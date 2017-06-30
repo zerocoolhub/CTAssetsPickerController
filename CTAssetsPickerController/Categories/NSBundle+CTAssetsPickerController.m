@@ -31,7 +31,8 @@
 
 + (NSBundle *)ctassetsPickerBundle
 {
-    return [NSBundle bundleWithPath:[NSBundle ctassetsPickerBundlePath]];
+    return [NSBundle mainBundle];
+    //return [NSBundle bundleWithPath:[NSBundle ctassetsPickerBundlePath]];
 }
 
 + (NSString *)ctassetsPickerBundlePath
